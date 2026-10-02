@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luma — Skincare Product UI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <a href="#" class="logo">
+            LUMA<span>.</span>
+        </a>
+
+        <nav>
+            <a href="#shop">Shop</a>
+            <a href="#benefits">Benefits</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="icon-btn" aria-label="Search">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="6.5"></circle>
+                    <path d="m16 16 5 5"></path>
+                </svg>
+            </button>
+
+            <button class="cart-btn">
+                Bag <span>0</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO / PRODUCT -->
+
+        <section class="product-section" id="shop">
+
+            <!-- PRODUCT VISUAL -->
+
+            <div class="product-visual">
+
+                <div class="glow"></div>
+
+                <div class="bottle">
+
+                    <div class="bottle-cap"></div>
+
+                    <div class="bottle-body">
+
+                        <div class="bottle-label">
+
+                            <span>LUMA</span>
+
+                            <strong>DAILY</strong>
+
+                            <small>
+                                HYDRATING<br>
+                                SERUM
+                            </small>
+
+                            <em>
+                                30 ML
+                            </em>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <span class="visual-caption">
+                    Daily Hydration Serum
+                </span>
+
+            </div>
+
+
+            <!-- PRODUCT INFO -->
+
+            <div class="product-info">
+
+                <span class="eyebrow">
+                    SKINCARE ESSENTIAL
+                </span>
+
+                <h1>
+                    Daily Hydration
+                    <span>Serum</span>
+                </h1>
+
+                <div class="rating-row">
+
+                    <span class="stars">
+                        ★★★★★
+                    </span>
+
+                    <span>
+                        4.9 · 128 reviews
+                    </span>
+
+                </div>
+
+                <p class="description">
+                    A lightweight hydrating serum designed to
+                    replenish moisture and leave skin feeling
+                    soft, fresh and balanced throughout the day.
+                </p>
+
+                <div class="price-row">
+
+                    <strong>₹899</strong>
+
+                    <del>₹1,199</del>
+
+                    <span>25% OFF</span>
+
+                </div>
+
+
+                <!-- SIZE -->
+
+                <div class="option">
+
+                    <div class="option-heading">
+
+                        <strong>Size</strong>
+
+                        <span>30 ml</span>
+
+                    </div>
+
+                    <div class="sizes">
+
+                        <button class="size active">
+                            30 ml
+                        </button>
+
+                        <button class="size">
+                            50 ml
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- QUANTITY -->
+
+                <div class="option quantity-option">
+
+                    <strong>Quantity</strong>
+
+                    <div class="quantity">
+
+                        <button id="minus">−</button>
+
+                        <span id="quantity">1</span>
+
+                        <button id="plus">+</button>
+
+                    </div>
+
+                </div>
+
+
+                <button class="add-cart">
+                    Add to Bag — ₹899
+                </button>
+
+
+                <div class="product-points">
+
+                    <div>
+
+                        <span class="point-icon">
+                            ✓
+                        </span>
+
+                        <div>
+                            <strong>Free delivery</strong>
+                            <small>On orders above ₹499</small>
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <span class="point-icon">
+                            ✓
+                        </span>
+
+                        <div>
+                            <strong>Easy returns</strong>
+                            <small>7-day return policy</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BENEFITS -->
+
+        <section class="benefits section" id="benefits">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    WHY LUMA
+                </span>
+
+                <h2>
+                    Simple care.<br>
+                    Thoughtfully designed.
+                </h2>
+
+            </div>
+
+
+            <div class="benefit-grid">
+
+                <article>
+
+                    <span class="number">
+                        01
+                    </span>
+
+                    <h3>Deep Hydration</h3>
+
+                    <p>
+                        Helps maintain moisture and keeps
+                        skin feeling comfortable throughout
+                        the day.
+                    </p>
+
+                </article>
+
+
+                <article>
+
+                    <span class="number">
+                        02
+                    </span>
+
+                    <h3>Lightweight Formula</h3>
+
+                    <p>
+                        Absorbs quickly without leaving
+                        a heavy or sticky finish.
+                    </p>
+
+                </article>
+
+
+                <article>
+
+                    <span class="number">
+                        03
+                    </span>
+
+                    <h3>Everyday Essential</h3>
+
+                    <p>
+                        Designed to fit effortlessly into
+                        a simple daily skincare routine.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- REVIEWS -->
+
+        <section class="reviews section" id="reviews">
+
+            <div class="reviews-heading">
+
+                <div>
+                    <span class="eyebrow">
+                        CUSTOMER NOTES
+                    </span>
+
+                    <h2>
+                        Loved by our community.
+                    </h2>
+                </div>
+
+                <div class="overall-rating">
+
+                    <strong>4.9</strong>
+
+                    <span>
+                        ★★★★★<br>
+                        128 reviews
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="review-grid">
+
+                <article class="review">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "The interface feels really simple
+                        and the product information is easy
+                        to understand."
+                    </p>
+
+                    <strong>
+                        Aanya R.
+                    </strong>
+
+                </article>
+
+
+                <article class="review">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Clean packaging, clear details and
+                        a very smooth shopping experience."
+                    </p>
+
+                    <strong>
+                        Riya M.
+                    </strong>
+
+                </article>
+
+
+                <article class="review">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Everything I need to know about
+                        the product is right where I expect it."
+                    </p>
+
+                    <strong>
+                        Meera K.
+                    </strong>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="about section" id="about">
+
+            <div class="about-box">
+
+                <div>
+                    <span class="eyebrow">
+                        THE LUMA IDEA
+                    </span>
+
+                    <h2>
+                        Less noise.
+                        <span>More clarity.</span>
+                    </h2>
+                </div>
+
+                <p>
+                    Luma is a fictional skincare brand concept
+                    focused on creating a calm, clear and
+                    intentional shopping experience.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="logo">
+            LUMA<span>.</span>
+        </div>
+
+        <p>
+            Skincare E-commerce UI/UX Concept
+        </p>
+
+        <span>
+            Personal Design Project · 2026
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
